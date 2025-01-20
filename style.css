@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+#carcasa{
+    background-color: rgb(37, 29, 16);
+    border: solid black 4px;
+    height: 480px;
+    width: 450px;
+    border-radius: 7%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#pantalla{
+    background-color: rgb(24, 120, 165);
+    height: 70px;
+    width: 360px;   
+    border-radius: 01%;
+    border: solid black 3px;
+    color: white;
+    font-size: 60px;
+    padding-right: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+
+#encendedor{
+    background-color : lightgreen;
+    margin-top: 10px;
+    margin-right: 65%;
+}
+
+#botonesNum{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 0px 10px 20px;
+    width: 380px;
+}
+
+.boton{
+    width: 70px;
+    height: 70px;
+    border: solid rgb(110, 45, 45) 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: white;
+    background-color: rgb(97, 97, 97);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.boton:hover{
+    background-color: rgb(40, 129, 129);
+}
+
+.boton:active{
+    background-color:rgb(255, 188, 43)
+}
+
+.punto, .AC{
+width: 35px;
+height: 55px;
+margin: 20px 5px 10px 5px;
+border-radius: 0;
+}
